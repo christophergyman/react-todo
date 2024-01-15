@@ -1,12 +1,13 @@
-import Image from 'next/image'
-import LargeContainer from './components/container'
+"use client";
+import Image from "next/image";
+import LargeContainer from "./components/container";
 
 export default function Home() {
   return (
     <main className="">
       <div>
-        <LargeContainer/>
+        <LargeContainer />
       </div>
     </main>
-  )
+  );
 }
